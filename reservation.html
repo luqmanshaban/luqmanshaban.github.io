@@ -1,0 +1,557 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RESERVATIONS</title>
+
+    <!--Fontawesome-->
+    <script src="https://kit.fontawesome.com/17b567cc2c.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="reservation.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  </head>
+  <body>
+
+
+    <div class="body">
+
+
+       <!--ANNIMATION-->
+       <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h3 class="animate-charcter">Welcome to HiTOUR</h3>
+          </div>
+        </div>
+      </div>
+
+
+
+
+     <!--HEADER-->
+     <div id="header">
+        <div class="container-fluid my-1 p-3 border">
+            <div class="row">
+                <div class="col">
+                    <nav class="navbar navbar-expand-lg bg-light">
+                        <div class="container-fluid">
+                          <a class="navbar-brand" href="#">
+                            <div class="waviy">
+                                <span style="--i:1">H</span>
+                                <span style="--i:2">i</span>
+                                <span style="--i:3">T</span>
+                                <span style="--i:4">O</span>
+                                <span style="--i:5">U</span>
+                                <span style="--i:6">R</span>
+                               </div>
+                          </a>
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                              <li class="nav-item">
+                                <a class="nav-link"  href="index.html">HOME</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="heritage.html">HERITAGE</a>
+                            </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="destination.html">DESTINATIONS</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="gallery.html">GALLERY</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="reservation.html">RESERVATIONS</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="contact.html">CONTACT</a>
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  PACKAGES
+                                </a>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item"  href="reservation.html">PLATINUM</a></li>
+                                  <li><a class="dropdown-item" href="reservation.html">GOLD</a></li>
+                                  <li><hr class="dropdown-divider"></li>
+                                  <li><a class="dropdown-item" href="reservation.html">SILVER</a></li>
+                                  <li><a class="dropdown-item" href="reservation.html">BRONZE</a></li>
+                                </ul>
+                              </li>
+                            </ul>
+                            <form class="d-flex" role="search">
+                              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                              <button class="btn btn-outline-dark mx-1" type="submit">Search</button>
+                              <a href="login.html"><button class="btn btn-outline-dark mx-1" type="button">LOGIN</button></a> 
+                              <a href="signup.html"><button class="btn btn-outline-dark mx-1" type="button">SIGNUP</button></a>
+                            </form>
+                          </div>
+                        </div>
+                      </nav>
+                </div>
+            </div>
+            </div>          
+        </div>
+
+        <div class="container my-sm-4 " id="select">
+          
+            
+            <div class="row border border-dark p-4">
+              <div class="form-group col-md-4 col-lg-4">
+                <label for="inputState" class="text-dark">DESTINATION</label>
+                <select id="inputState" class="form-control">
+                  <option selected>Choose...</option>
+                  <option selected>SAFARI</option>
+                  <option selected>NAIROBI NATIONAL PARK</option>
+                  <option selected>GIRAFFE CENTER</option>
+                  <option selected>KARURA FOREST</option>
+                  <option selected>NAIROBI NATIONAL MUSEUM</option>
+                  <option>...</option>
+                </select>
+              </div>
+              <div class="form-group col-md-4 col-lg-4">
+                <label for="exampleFormControlSelect1" class="text-dark">Adults</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6</option>
+                  <option>7</option>
+                  <option>8</option>
+                  <option>9</option>
+                  <option>10</option>
+                </select>
+              </div>
+              <div class="form-group col-md-4 col-lg-4">
+                <label for="exampleFormControlSelect1" class="text-dark">under-18</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6</option>
+                  <option>7</option>
+                  <option>8</option>
+                  <option>9</option>
+                  <option>10</option>
+                </select>
+              </div>
+              <div class="form-group col-md-4 col-lg-4" id="dateform">
+                <label for="exampleFormControlSelect1" class="text-dark">CHECK-IN</label>
+                <input type="date" class="form-control" id="exampleFormControlInput1">
+              </div>
+              <div class="form-group col-md-4 col-lg-4" id="dateform">
+                <label for="exampleFormControlSelect1" class="text-dark">CHECK-OUT</label>
+                <input type="date" class="form-control" id="exampleFormControlInput1">
+              </div>
+              <div class="form-group col-md-4 col-lg-4" id="rooms">
+                <label for="exampleFormControlSelect1" class="text-dark">ROOMS</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6</option>
+                  <option>7</option>
+                  <option>8</option>
+                  <option>9</option>
+                  <option>10</option>
+                </select>
+              </div>
+              <!--comments-->
+
+          <div class="row my-4">
+            <div class="col text-center">
+              <h1>Select a Package</h1>
+            </div>
+          </div>
+          <!--PLATINUM-->
+          <div class="row">
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+              <div class="card bg-light" style="width: 18rem;">
+                <img class="card-img-top" src="./images/patinum.jpeg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title text-center bg-success">PLATINUM</h5>
+                  <ul>
+                    <li>- 24/HR WIFI</li>
+                    <li>- FREE MEALS</li>
+                    <li>- LUXURY ROOMS</li>
+                    <li>- PICK UP FROM AIRPORT</li>
+                  </ul>
+                  <!--<a href="#" class="btn btn-primary"></a>-->
+                  <div class="input-group" id="pckg">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text bg-success">
+                      <input type="radio" name="package" value="platinum" aria-label="Radio button for following text input">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--GOLD-->
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+              <div class="card bg-light" style="width: 18rem;">
+                <img class="card-img-top" src="./images/gold.jpeg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title text-center bg-success">Gold</h5>
+                  <ul>
+                    <li>- 24/HR WIFI</li>
+                    <li>- FREE MEALS</li>
+                    <li>- LUXURY ROOMS</li>
+                    <li>- PICK UP FROM AIRPORT</li>
+                  </ul>
+                  <!--<a href="#" class="btn btn-primary"></a>-->
+                  <div class="input-group" id="pckg">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text bg-success">
+                      <input type="radio" name="package" value="gold" aria-label="Radio button for following text input">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--SILVER-->
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+              <div class="card bg-light" style="width: 18rem;">
+                <img class="card-img-top" src="./images/silver.jpeg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title text-center bg-success">silver</h5>
+                  <ul>
+                    <li>- 24/HR WIFI</li>
+                    <li>- FREE MEALS</li>
+                    <li>- LUXURY ROOMS</li>
+                    <li>- PICK UP FROM AIRPORT</li>
+                  </ul>
+                  <!--<a href="#" class="btn btn-primary"></a>-->
+                  <div class="input-group" id="pckg">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text bg-success">
+                      <input type="radio" name="package" value="gold" aria-label="Radio button for following text input">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--BRONZE-->
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+              <div class="card bg-light" style="width: 18rem;">
+                <img class="card-img-top" src="./images/bronze.jpeg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title text-center bg-success">BRONZE</h5>
+                  <ul>
+                    <li>- 24/HR WIFI</li>
+                    <li>- FREE MEALS</li>
+                    <li>- LUXURY ROOMS</li>
+                    <li>- PICK UP FROM AIRPORT</li>
+                  </ul>
+                  <!--<a href="#" class="btn btn-primary"></a>-->
+                  <div class="input-group" id="pckg">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text bg-success">
+                      <input type="radio" name="package" value="gold" aria-label="Radio button for following text input">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+
+          
+
+        </div>
+
+
+        <!--PAYMENT-->
+        <div class="container my-4 p-4 border border-dark">
+          <div class="row">
+            <h1>PAYMENT</h1>
+          </div>
+          <div class="row">
+            <div class="col-lg-2">
+              <div class="my-3">
+                <div class="form-check">
+                  <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked="" required="">
+                  <label class="form-check-label" for="credit">Credit card</label>
+                </div>
+                <div class="form-check">
+                  <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required="">
+                  <label class="form-check-label" for="debit">Debit card</label>
+                </div>
+                <div class="form-check">
+                  <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required="">
+                  <label class="form-check-label" for="paypal">PayPal</label>
+                </div>
+              </div>
+            </div>
+
+            <!--DETAILS-->
+            <div class="col-lg-5">
+              <div class="row g-3">
+                <div class="col-sm-6">
+                  <label for="firstName" class="form-label">First name</label>
+                  <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                  <div class="invalid-feedback">
+                    Valid first name is required.
+                  </div>
+                </div>
+    
+                <div class="col-sm-6">
+                  <label for="lastName" class="form-label">Last name</label>
+                  <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                  <div class="invalid-feedback">
+                    Valid last name is required.
+                  </div>
+                </div>
+    
+                <div class="col-12">
+                  <label for="email" class="form-label">Email <span class="text-muted">(Optional)</span></label>
+                  <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                  <div class="invalid-feedback">
+                    Please enter a valid email address for shipping updates.
+                  </div>
+                </div>
+    
+                <div class="col-md-5">
+                  <label for="country" class="form-label">Country</label>
+                  <select class="form-select" id="country" required="">
+                    <option value="">Choose...</option>
+                    <option>United States</option>
+                  </select>
+                  <div class="invalid-feedback">
+                    Please select a valid country.
+                  </div>
+                </div>
+    
+                <div class="col-md-4">
+                  <label for="state" class="form-label">State</label>
+                  <select class="form-select" id="state" required="">
+                    <option value="">Choose...</option>
+                    <option>California</option>
+                  </select>
+                  <div class="invalid-feedback">
+                    Please provide a valid state.
+                  </div>
+                </div>
+    
+                <div class="col-md-3">
+                  <label for="zip" class="form-label">Zip</label>
+                  <input type="text" class="form-control" id="zip" placeholder="" required="">
+                  <div class="invalid-feedback">
+                    Zip code required.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--CARD-->
+            <div class="col-lg-5" id="payment">
+              
+                <form action="" class="form">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="form__div">
+                                <input type="text" class="form-control" placeholder=" ">
+                                <label for="" class="form__label">Card Number</label>
+                            </div>
+                        </div>
+  
+                        <div class="col-6">
+                            <div class="form__div">
+                                <input type="text" class="form-control" placeholder=" ">
+                                <label for="" class="form__label">MM / yy</label>
+                            </div>
+                        </div>
+  
+                        <div class="col-6">
+                            <div class="form__div">
+                                <input type="password" class="form-control" placeholder=" ">
+                                <label for="" class="form__label">cvv code</label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form__div">
+                                <input type="text" class="form-control" placeholder=" ">
+                                <label for="" class="form__label">name on the card</label>
+                                <div class="col-md-6">
+                                  
+                                  <input type="text" class="form-control" id="cc-name" placeholder="" required="">
+                                  <small class="text-muted">Full name as displayed on card</small>
+                                  <div class="invalid-feedback">
+                                    Name on card is required
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="btn btn-primary w-100">CHECKOUT</div>
+                        </div>
+                    </div>
+                </form>
+            
+            </div>
+          </div>
+
+        </div>
+
+
+        <!--TESTIMONIALS-->
+        <div class="container mt-5 mb-5">
+    
+          <div class="row g-2">
+              <div class="col-md-4">
+                  <div class="card p-3 text-center px-4">
+                      
+                      <div class="user-image">
+                          
+                  <img src="./images/prof3.jpeg" class="rounded-circle" width="80"
+                          >
+                          
+                      </div>
+                      
+                      <div class="user-content">
+                          
+                          <h5 class="mb-0">Bruce Hardy</h5>
+                          <span>Software Developer</span>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                          
+                      </div>
+                      
+                      <div class="ratings">
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          
+                      </div>
+                      
+                  </div>
+              </div>
+              
+              <div class="col-md-4">
+                  
+                  <div class="card p-3 text-center px-4">
+                      
+                      <div class="user-image">
+                          
+                  <img src="./images/prof2.jpeg" class="rounded-circle" width="80"
+                          >
+                          
+                      </div>
+                      
+                      <div class="user-content">
+                          
+                          <h5 class="mb-0">Mark Smith</h5>
+                          <span>Web Developer</span>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                          
+                      </div>
+                      
+                      <div class="ratings">
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          
+                      </div>
+                      
+                  </div>
+                  
+              </div>
+              
+              <div class="col-md-4">
+                  
+                  <div class="card p-3 text-center px-4">
+                      
+                      <div class="user-image">
+                          
+                  <img src="/images/prof1.jpeg" class="rounded-circle" width="80"
+                          >
+                          
+                      </div>
+                      
+                      <div class="user-content">
+                          
+                          <h5 class="mb-0">Veera  Duncan</h5>
+                          <span>Software Architect</span>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                          
+                      </div>
+                      
+                      <div class="ratings">
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          
+                      </div>
+                      
+                  </div>
+                  
+              </div>
+              
+              
+          </div>
+          
+      </div>
+        
+      <footer class="mt-5 p-5 text-muted text-center text-small">
+        <p class="mb-1">© 2017–2022 HiTOUR</p>
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="#">HOME</a></li>
+          <li class="list-inline-item"><a href="#">article</a></li>
+          <li class="list-inline-item"><a href="#">contact</a></li>
+        </ul>
+        <div class="col-lg-3 col-sm-12 social-icons" id="social-icons">
+          <h5 class="text-center text-dark">SOCIALS</h5>
+          
+          <div class="row" id="row">
+              <div class="">
+                <div class="col-2 ">
+                  <a href="https://www.facebook.com" class="icons">
+                      <i class="fa-brands fa-facebook"></i>
+                  </a>
+              </div>
+              <div class="col-2 ">
+                  <a href="https://instagram.com" class="icons">
+                      <i class="fa-brands fa-instagram"></i>
+                  </a>
+              </div>
+              <div class="col-2 ">
+                  <a href="https://www.twitter.com" class="icons">
+                      <i class="fa-brands fa-twitter"></i>
+                  </a>
+              </div>
+              <div class="col-2 ">
+                  <a href="https://www.youtube.com" class="icons">
+                      <i class="fa-brands fa-youtube"></i>
+                  </a>
+              </div>
+              </div>
+          </div>
+      </footer>
+
+
+
+        
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>

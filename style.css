@@ -1,0 +1,167 @@
+.body {
+    background: rgb(191, 237, 252);
+}
+
+/*Welcome*/
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    
+    black 67%,
+    blue 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 30px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+
+
+
+/*Logo Annimation*/
+.waviy {
+    position: relative;
+  }
+  .waviy span {
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+    color: black;
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i))
+  }
+  @keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+  }
+
+  #float {
+    float: left;
+    max-width: 100%;
+    width: auto;
+ }
+
+ #select {
+  text-transform:  uppercase; 
+ }
+
+ #pckg {
+ justify-content: center
+}
+
+
+#rooms{
+  margin-top: 10px;
+}
+
+#dateform {
+  padding: 10px;
+}
+
+#cp {
+    font-size: 40px;
+    color: black;
+    border: 10px;
+    border-radius: 8px;
+    border-color: rgb(119, 126, 123);
+    background-color: rgb(233, 239, 239);
+}
+
+
+#s3a {
+    list-style: none;
+    text-decoration: none;
+}
+
+p {
+    font-weight: light;
+    color: #050503;
+    font-size: large;
+}
+
+#fa {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+ li a {
+    text-decoration: none;
+    color: #050503;
+    padding-right: 10px;
+ }
+
+ #socials {
+    display: inline;
+ }
+
+ #footer {
+    background-color: rgb(191, 237, 252);
+    padding: 20px;
+    border: 15px;
+    border-radius: 10px;
+ }
+ 
+
+ #float-left {
+  float: right;
+ }
+
+ #div {
+  background-image: url(./images/nationalPark1.jpg);
+  height: 70vh;
+ }
+
+
+
+ /**/
+ body{
+  background-color:#eee;
+}
+
+.card{
+  
+  border:none;
+}
+
+.user-content p{
+  margin-top:5px;
+  font-size:12px;
+}
+
+
+.ratings i{
+  color:blue;
+}
+
+#payment {
+  justify-content: center;
+}
+
+.col-2 {
+
+  display: inline-block;
+  padding: 1px;
+}
+
+
